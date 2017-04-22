@@ -203,8 +203,8 @@ if ($sesi_username != NULL || !empty($sesi_username)) {
 			
 		<footer>
 			<hr />
-			<p><strong>Aplikasi PSB &copy; <a href="#" target="_blank" title="System Information of Hogwarts School">Eprayogia</a></strong></p>
-			<p>Theme by <a href="http://www.instagram.com/eprayogia">NETS - Eprayogia</a></p>
+			<p><strong>Aplikasi PSB &copy; <a href="#" target="_blank" title="System Information for Administration new Students">Eprayogia</a></strong></p>
+			<p>Theme by <a href="http://www.instagram.com/eprayogia">Bang Resik - Eprayogia</a></p>
  		</footer>
 	</aside><!-- end of sidebar -->
 	
