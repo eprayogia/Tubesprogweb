@@ -42,8 +42,8 @@ if ($p == "") {
 
 <head>
 	<meta charset="utf-8"/>
-	<title>SMK Negeri 1 Hogwarts</title>
-	<meta content='Website Penerimaan Peserta Didik Baru (PPDB Online) SMK Negeri 1 Hogwarts, Tahun Ajaran 2016/2017'/>
+	<title>SYNTAS SMK Negeri Kembang Resik</title>
+	<meta content='SYNTAS (System Information for New Students) SMK Negeri Kembang Resik, Tahun Ajaran 2017/2018'/>
 	
 	<meta content='ppdb online, psb online' name='KEYWORDS'/>
 
@@ -107,7 +107,7 @@ if ($p == "") {
 
 	<header id="header">
 		<hgroup>
-			<h1 class="site_title"><a href="index.php">PPDB ONLINE</a></h1>
+			<h1 class="site_title"><a href="index.php">SYNTAS</a></h1>
 			<h2 class="section_title"><?php echo $identitas_sekolah[0]; ?>, Tahun Ajaran <?php echo $identitas_sekolah[2]; ?></h2>
 			<h6 class="alamat">Alamat Sekolah : <?php echo $identitas_sekolah[1]; ?></h6>
 		</hgroup>
@@ -127,7 +127,7 @@ if ($p == "") {
 			<!-- <a class="logout_user" href="#" title="Logout">Logout</a> -->
 		</div>
 		<div class="breadcrumbs_container">
-			<article class="breadcrumbs"><a href="index.php">Aplikasi PSB</a> <div class="breadcrumb_divider"></div> <a class="current"><?php echo $nav; ?></a></article>
+			<article class="breadcrumbs"><a href="index.php">SYNTAS</a> <div class="breadcrumb_divider"></div> <a class="current"><?php echo $nav; ?></a></article>
 		</div>
 	</section><!-- end of secondary bar -->
 	
@@ -171,8 +171,8 @@ if ($p == "") {
 		<?php } ?>
 		<footer>
 			<hr />
-			<p><strong>Aplikasi PSB &copy; <a href="#" target="_blank" title="System Information of Hogwarts School">Eprayogia</a></strong></p>
-			<p>Theme by <a href="#">NETS - Eprayogia</a></p>
+			<p><strong>SYNTAS SMK Negeri Kembang Resik &copy; <a href="#" target="_blank" title="System Information of Kembang Resik School">Eprayogia</a></strong></p>
+			<p>Theme by <a href="#">Kembang Resik - Eprayogia</a></p>
  		</footer>
 	</aside><!-- end of sidebar -->
 	

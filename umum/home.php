@@ -1,5 +1,5 @@
 <article class="module width_full">
-	<header><h3>Selamat Datang di PPDB Online SMK Negeri 1 Hogwarts</h3></header>
+	<header><h3>Selamat Datang di SYNTAS SMK Negeri Kembang Resik</h3></header>
 		<div class="module_content">
 			<p>
 			<?php
