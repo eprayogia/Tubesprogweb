@@ -5,8 +5,8 @@
 <meta content='width=330, height=400, initial-scale=1' name='viewport' />
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 <title>:: Login Administrator ::</title>
-<script src="../js/jquery-1.5.2.min.js" type="text/javascript"></script>
-<script src="../js/jquery.validate.min.js" type="text/javascript"></script>
+<script src="js/jquery-1.5.2.min.js" type="text/javascript"></script>
+<script src="js/jquery.validate.min.js" type="text/javascript"></script>
 <script type="text/javascript">
 	$.validator.setDefaults({
 		submitHandler: function() { login(); },
@@ -26,7 +26,7 @@
     });  
 } 
 </script>
-<link href="../css/login.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="css/login.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
 
 <body style='min-height:380px'>
