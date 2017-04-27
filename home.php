@@ -1,5 +1,5 @@
 <article class="module width_full">
-	<header><h3>Selamat Datang di PPDB Online MTs Negeri Sidoharjo</h3></header>
+	<header><h3>Selamat Datang di System Information For Administration new Students</h3></header>
 		<div class="module_content">
 			<p>
 			<?php

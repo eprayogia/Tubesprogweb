@@ -75,7 +75,7 @@ if ($sesi_username != NULL || !empty($sesi_username)) {
 
 <head>
 	<meta charset="utf-8"/>
-	<title>Penerimaan Peserta Didik Baru SMK Negeri 1 Hogwarts Tahun Pelajaran 2016/2017</title>
+	<title>Penerimaan Peserta Didik Baru SMK Negeri Kembang Resik Tahun Pelajaran 2017/2018</title>
 	
 	<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen" />
 	<!--[if lt IE 9]>
@@ -145,7 +145,7 @@ if ($sesi_username != NULL || !empty($sesi_username)) {
 
 	<header id="header">
 		<hgroup>
-			<h1 class="site_title"><a href="index.php">Aplikasi PSB 3.0</a></h1>
+			<h1 class="site_title"><a href="index.php">SYNTAS</a></h1>
 			<h2 class="section_title"><?php echo $identitas_sekolah[0]; ?>, Tahun Ajaran <?php echo $identitas_sekolah[2]; ?></h2>
 			<h6 class="alamat">Alamat Sekolah : <?php echo $identitas_sekolah[1]; ?></h6>
 		</hgroup>
@@ -157,7 +157,7 @@ if ($sesi_username != NULL || !empty($sesi_username)) {
 			<!-- <a class="logout_user" href="#" title="Logout">Logout</a> -->
 		</div>
 		<div class="breadcrumbs_container">
-			<article class="breadcrumbs"><a href="index.php">Aplikasi PSB</a> <div class="breadcrumb_divider"></div> <a class="current"><?php echo $nav; ?></a></article>
+			<article class="breadcrumbs"><a href="index.php">SYNTAS</a> <div class="breadcrumb_divider"></div> <a class="current"><?php echo $nav; ?></a></article>
 		</div>
 	</section><!-- end of secondary bar -->
 	
@@ -203,7 +203,7 @@ if ($sesi_username != NULL || !empty($sesi_username)) {
 			
 		<footer>
 			<hr />
-			<p><strong>Aplikasi PSB &copy; <a href="#" target="_blank" title="System Information for Administration new Students">Eprayogia</a></strong></p>
+			<p><strong>SYNTAS &copy; <a href="#" target="_blank" title="System Information for Administration new Students">Eprayogia</a></strong></p>
 			<p>Theme by <a href="http://www.instagram.com/eprayogia">Bang Resik - Eprayogia</a></p>
  		</footer>
 	</aside><!-- end of sidebar -->

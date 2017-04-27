@@ -13,17 +13,17 @@ $a_kop = mysql_fetch_array($q_kop);
 	<body onload="print();">
 		<table class="cetak">
 			<tr style="border-bottom: solid 4px">
-				<td><img src="images/logo/<?php echo $a_kop[4]; ?>" width="80px" height="80px"></td>
+				<td><img src="images/logo/<?php echo $a_kop[5]; ?>" width="80px" height="80px"></td>
 				<td align="center">
 				<h1>PANITIA PENERIMAAN SISWA BARU</h1>
-				<h2><?php echo $a_kop[0]; ?></h2>
-				<h3>Alamat : <?php echo $a_kop[1]; ?></h3>
+				<h1>SMK NEGERI KEMBANG RESIK</h1>
+				<h3>Jl. R.E. Martadinata No. 1, Kel. Cipedes, Kec. Cipedes, Kota Tasikmalaya</h3>
 				</td>
 			</tr>
 
 			<tr>
 			<td colspan="2">
-
+			<br>
 			<center><h3>DATA PENDAFTAR</h3></center>
 
 			<tablE class="data" width="80%" align="center">
