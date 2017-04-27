@@ -12,8 +12,11 @@ if ($JLogin != 1) {
 } else {
 	$AUser				= mysql_fetch_array($QLogin);
 	$_SESSION['umum'] 	= $AUser['u'];
+	?>
+	<script language="JavaScript">alert('LOGIN SUKSES');
+	document.location=('index.php')</script>
 	
-	echo "<div id='sukses'>Login Sukses. <a href='index.php'>Lanjutkan</a></div>";
+	<?php
 }
 
 ?>

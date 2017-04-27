@@ -67,7 +67,7 @@
 </form>
 </div>
 <div class='bottom'></div>
-<div style="text-align: center">Aplikasi PSB 3.0 &copy; Eprayogia</div>
+<div style="text-align: center">SYNTAS &copy; Eprayogia</div>
 </div>
 </div>
 </div>
