@@ -1,12 +1,12 @@
 <?php
 session_start();
 
-/* variabel konfigurasi */
-$konfigurasi['h']			= "localhost";		// server
-$konfigurasi['u']			= "root";			// db username
-$konfigurasi['p']			= "";				// db password
-$konfigurasi['d'] 			= "_ppdb";			// db name 
-$konfigurasi['pengguna']	= "smk";			// tingkat pengguna pilihan = "smk" atau "smp"
+
+$konfigurasi['h']			= "localhost";		
+$konfigurasi['u']			= "root";			
+$konfigurasi['p']			= "";				
+$konfigurasi['d'] 			= "_ppdb";			 
+$konfigurasi['pengguna']	= "smk";			
 
 
 mysql_connect($konfigurasi['h'], $konfigurasi['u'], $konfigurasi['p']) or die (mysql_error());
@@ -271,11 +271,10 @@ function getEkstensiFile($file) {
 	return $ekstensi;	
 }
 
-///backup restore
-//fungsi BACKUP OK @ 14 JUni 2012
+
 function backup_tables($tables) {
 	$return = "";
-	//get all of the tables
+	 
 	if($tables == '*') {
 		$tables = array();
 		$result = mysql_query('SHOW TABLES');
