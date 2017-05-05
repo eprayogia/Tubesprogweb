@@ -6,7 +6,6 @@ $id_daftar	= isset($_GET['id']) ? $_GET['id'] : "";
 
 $p_tombol	= isset($_POST['kirim_daftar']) ? $_POST['kirim_daftar'] : "";
 
-//variabel POST
 
 $p_id_daftar = isset($_POST['id_daftar']) ? $_POST['id_daftar'] : "";
 
@@ -114,7 +113,7 @@ $jumlah_nilai	= $p_bing + $p_bind + $p_mtk + $p_ipa + $nil_pres1 + $nil_pres2 + 
 /*-------- ACTION --------------*/
 if ($p_tombol == "DAFTAR") {
 	/* PENGECEKAN INPUTAN KOSONG YANG ke-2 sekaligus akses LANGSUNG lewat $_GET */
-	//echo $p_tgl_lahir
+	
 	$pass = acakHuruf();
 	if ($p_nama == "" || $p_jk == "" || $p_agama == "" || $p_tmp_lahir == "" 
 		|| $p_tgl_lahir == 0 || $p_bln_lahir == 0 || $p_thn_lahir == 0 || $p_alamat == ""
@@ -304,6 +303,7 @@ if ($p_tombol == "DAFTAR") {
 	</table>
 	</div>
 </article>
+	
 
 <article class="module width_full">
 	<header><h3>Konfirmasi Data Pendaftar</h3></header>
