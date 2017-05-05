@@ -12,13 +12,14 @@ $mod 		= isset($_GET['mod']) ? $_GET['mod'] : NULL;
 		}
 		
 		// ================ DATA FORM ( POST ) =====================//
-		$display 		= "style='display: none'"; 	//default = formnya dihidden
-		$tb_act 		= isset($_POST['tb_act']) ? $_POST['tb_act'] : NULL;				//ambil variabel POST value Tombol FOrm
-		$p_id_agama   	= isset($_POST['id_agama']) ? $_POST['id_agama'] : NULL;			//ambil variabel POST id_agama
+		$display 		= "style='display: none'"; 					//default = formnya dihidden
+		$tb_act 		= isset($_POST['tb_act']) ? $_POST['tb_act'] : NULL;		//ambil variabel POST value Tombol FOrm
+		$p_id_agama   	= isset($_POST['id_agama']) ? $_POST['id_agama'] : NULL;		//ambil variabel POST id_agama
 		$p_nama_agama 	= isset($_POST['nama_agama']) ? $_POST['nama_agama'] : NULL;		//ambil variabel POST nama_agama
 		
 		
 		if ($tb_act == "Tambah") {
+			
 			$display = "style='display: none'";
 			$q_tambah_agama	= mysql_query("INSERT INTO t_agama VALUES ('', '$p_nama_agama')");
 			if ($q_tambah_agama) {
@@ -27,6 +28,7 @@ $mod 		= isset($_GET['mod']) ? $_GET['mod'] : NULL;
 				echo "<h4 class='alert_error'>".mysql_error()."<span id='close'>[<a href='#'>X</a>]</span></h4>";
 			}
 		} else if ($tb_act == "Edit") {
+			
 			$display = "style='display: none'";
 			$q_edit_agama	= mysql_query("UPDATE t_agama SET agama = '$p_nama_agama' WHERE id_agama = '$p_id_agama'");
 			if ($q_edit_agama) {
