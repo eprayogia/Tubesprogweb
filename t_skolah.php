@@ -12,6 +12,8 @@
 				echo "<h4 class='alert_error'>".mysql_error()."<span id='close'>[<a href='#'>X</a>]</span></h4>";
 			}
 		}
+
+
 		
 		// ================ DATA FORM ( POST ) =====================//
 		$display 			= "style='display: none'"; 	//default = formnya dihidden
