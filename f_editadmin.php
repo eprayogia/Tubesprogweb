@@ -4,21 +4,21 @@ $mod 			= isset($_GET['mod']) ? $_GET['mod'] : NULL;
 
 				
 // ================ DATA FORM ( POST ) =====================//
-$display 		= "style='display: none'"; 	//default = formnya dihidden
-$tb_act 		= isset($_POST['tb_act']) ? $_POST['tb_act'] : NULL;				//ambil variabel POST value Tombol FOrm
+$display 		= "style='display: none'"; 	
+$tb_act 		= isset($_POST['tb_act']) ? $_POST['tb_act'] : NULL;				
 
 //===================
-$p_nama	   		= isset($_POST['nama']) ? $_POST['nama'] : NULL;		//ambil variabel POST id_agama
+$p_nama	   		= isset($_POST['nama']) ? $_POST['nama'] : NULL;		
 $p_user 		= isset($_POST['user']) ? $_POST['user'] : NULL;	
 $p_pass 		= isset($_POST['pass']) ? $_POST['pass'] : NULL;	
-$p_alamat 		= isset($_POST['alamat']) ? $_POST['alamat'] : NULL;	//ambil variabel POST nama_agama
+$p_alamat 		= isset($_POST['alamat']) ? $_POST['alamat'] : NULL;	
 $p_ta	 		= isset($_POST['ta']) ? $_POST['ta'] : NULL;
 $p_kepsek		= isset($_POST['kepsek']) ? $_POST['kepsek'] : NULL;
 $p_beranda		= isset($_POST['beranda']) ? $_POST['beranda'] : NULL;
 $p_prosedur		= isset($_POST['prosedur']) ? $_POST['prosedur'] : NULL;
 //===================
-$logoName 		= isset($_FILES['logo']['name']) ? $_FILES['logo']['name'] : NULL; //get the file name
-$logoSize 		= isset($_FILES['logo']['size']) ? $_FILES['logo']['size'] : NULL; //get the size
+$logoName 		= isset($_FILES['logo']['name']) ? $_FILES['logo']['name'] : NULL; 
+$logoSize 		= isset($_FILES['logo']['size']) ? $_FILES['logo']['size'] : NULL; 
 $logoError 		= isset($_FILES['logo']['error']) ? $_FILES['logo']['error'] : NULL;
 $logoType 		= isset($_FILES['logo']['type']) ? $_FILES['logo']['type'] : NULL;
 //============================
