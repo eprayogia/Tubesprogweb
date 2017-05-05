@@ -40,8 +40,10 @@ if ($mod == "del") {
 		$j_data 	= mysql_num_rows($q_daftar);
 
 		if ($j_data == 0) {
+			
 			echo "<tr><td id='tengah' colspan='5'>-- Tidak Ada Data --</td></tr>";
 		} else {
+			
 			$no = 1;
 			while ($a_daftar = mysql_fetch_array($q_daftar)) {
 				echo "<tr>
@@ -77,6 +79,7 @@ if ($mod == "del") {
 
 
 		if($hal < $total_pages){
+			
 		$next = ($page + 1);
 		echo "<a class='paging' href=$_SERVER[PHP_SELF]?p=daftar_data&hal=$next>Next >></a>";
 		}
