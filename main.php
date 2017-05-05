@@ -1,5 +1,5 @@
 
-		<h4 class="alert_info">Welcome to the free MediaLoot admin panel template, this could be an informative message.</h4>
+		<h4 class="alert_info">SYNTAS.</h4>
 		
 		<article class="module width_full">
 			<header><h3>Stats</h3></header>
@@ -86,7 +86,7 @@
 				</tr>  
 			</tbody> 
 			</table>
-			</div><!-- end of #tab1 -->
+			</div>
 			
 			<div id="tab2" class="tab_content">
 			<table class="tablesorter" cellspacing="0"> 
@@ -138,11 +138,11 @@
 			</tbody> 
 			</table>
 
-			</div><!-- end of #tab2 -->
+			</div>
 			
-		</div><!-- end of .tab_container -->
+		</div>
 		
-		</article><!-- end of content manager article -->
+		</article>
 		
 		<article class="module width_quarter">
 			<header><h3>Messages</h3></header>
@@ -166,7 +166,7 @@
 					<input type="submit" class="btn_post_message" value=""/>
 				</form>
 			</footer>
-		</article><!-- end of messages article -->
+		</article>
 		
 		<div class="clear"></div>
 		
@@ -181,7 +181,7 @@
 							<label>Content</label>
 							<textarea rows="12"></textarea>
 						</fieldset>
-						<fieldset style="width:48%; float:left; margin-right: 3%;"> <!-- to make two field float next to one another, adjust values accordingly -->
+						<fieldset style="width:48%; float:left; margin-right: 3%;"> 
 							<label>Category</label>
 							<select style="width:92%;">
 								<option>Articles</option>
@@ -189,7 +189,7 @@
 								<option>Freebies</option>
 							</select>
 						</fieldset>
-						<fieldset style="width:48%; float:left;"> <!-- to make two field float next to one another, adjust values accordingly -->
+						<fieldset style="width:48%; float:left;"> 
 							<label>Tags</label>
 							<input type="text" style="width:92%;">
 						</fieldset><div class="clear"></div>
@@ -204,7 +204,7 @@
 					<input type="submit" value="Reset">
 				</div>
 			</footer>
-		</article><!-- end of post new article -->
+		</article>
 		
 		<h4 class="alert_warning">A Warning Alert</h4>
 		
